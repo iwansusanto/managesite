@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Manage Site",
+    "version": "1.0",
+
+    "description": "Manage site to allow and disallow site",
+    "applications": {
+        "gecko": {
+            "id": "iwandevapps@gmail.com"
+        }
+    },
+    "permissions": [
+        "activeTab",
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+    ],
+    "icons": {
+        "48": "icons/border-48.png"
+    },
+   "background": {
+        "scripts": ["js/managesitebackground.js"]
+    }
+}
